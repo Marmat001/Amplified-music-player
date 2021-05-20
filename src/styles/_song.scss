@@ -1,0 +1,44 @@
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 20%;
+    clip-path: polygon(
+      85% 6%,
+      70% 15%,
+      30% 15%,
+      15% 5%,
+      0% 25%,
+      10% 45%,
+      10% 75%,
+      25% 90%,
+      40% 95%,
+      60% 95%,
+      75% 91%,
+      90% 75%,
+      90% 45%,
+      100% 25%
+    );
+  }
+
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .song-container {
+    margin-top: 30px;
+    img {
+      width: 50%;
+    }
+  }
+}

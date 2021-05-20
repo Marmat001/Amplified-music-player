@@ -1,0 +1,127 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .logo {
+    background-image: linear-gradient(to right, #ffdc2a 0%, #fb2182);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.8rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #fb2182;
+  }
+
+  .library-button {
+    margin-left: 5px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+.container {
+  position: absolute;
+  width: 150px;
+  height: 64px;
+  &:hover {
+    .icon {
+      bottom: 30px;
+      transition: all 1s ease-in-out;
+      box-shadow: 0px 0px 10px #ffdc2a;
+    }
+    .library-button {
+      box-shadow: 0px 0px 35px #c80de0;
+      transition: all 1s ease-in-out;
+    }
+  }
+  .icon {
+    width: 64px;
+    height: 64px;
+    left: 55px;
+    bottom: 0px;
+    background: linear-gradient(180deg, #ffdc2a 0%, #fb2182 41.54%);
+    box-shadow: 0px 0px 35px #ffdc2a;
+    z-index: 2;
+    border-radius: 20%;
+    transition: all 1s ease-in-out;
+  }
+  .library-button {
+    width: 171px;
+    height: 65px;
+    background: #2c0055;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+  }
+}
+.library-button {
+  position: absolute;
+  span {
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    left: 34px;
+    bottom: -2px;
+    font-size: 35px;
+    line-height: 70px;
+    transition: all 0.3s ease-in-out;
+    background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.icon {
+  position: absolute;
+}
+span {
+  position: absolute;
+}
+
+@media screen and (max-width: 1300px) {
+  nav {
+    button {
+      z-index: 10;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      margin-top: 70px;
+    }
+  }
+
+  .container {
+    right: 55px;
+    height: 50px;
+    .library-button {
+      width: 141px;
+      height: 50px;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      left: 50px;
+    }
+  }
+  .library-button {
+    span {
+      left: 24px;
+      bottom: -10px;
+      font-size: 30px;
+    }
+  }
+}
