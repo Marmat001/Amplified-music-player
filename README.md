@@ -5,8 +5,8 @@ This project is a React music player with expected functionality such as: Play /
 ## About The Build
 
 Some of the concepts this application has really helped me with: <br /> 
-- Working with hooks such as useRef for capturing input values, <br />
-- Passing, drilling and destructuring props, <br /> 
+- Working with hooks such as useRef for capturing input values <br />
+- Passing, drilling and destructuring props <br /> 
 - Passing, lifting and modifying state. <br /> 
 
 <br />
