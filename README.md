@@ -6,10 +6,10 @@ This project is a React music player with expected functionality such as: Play /
 
 This application has really helped me with the concepts of: - Working with hooks such as useRef for capturing input values, - Passing, drilling and destructuring props, - Passing, lifting and modifying state... and more. Some of the features provided in this application are:
 
-Play / pause
-Skip Forward / back
-View song length / time left
-Drag handler to change position in current song
-Song library to choose songs from
+Play / pause <br />
+Skip Forward / back <br />
+View song length / time left <br />
+Drag handler to change position in current song <br />
+Song library to choose songs from <br />
 Mobile responsive
 
