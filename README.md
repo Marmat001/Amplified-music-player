@@ -13,10 +13,10 @@ Some of the concepts this application has really helped me with: <br />
 Some of the features provided in this application are:
 <br /><br />
 
-Play / pause <br />
-Skip Forward / back <br />
-View song length / time left <br />
-Drag handler to change position in current song <br />
-Song library to choose songs from <br />
-Mobile responsive
+- Play / pause <br />
+- Skip Forward / back <br />
+- View song length / time left <br />
+- Drag handler to change position in current song <br />
+- Song library to choose songs from <br />
+- Mobile responsive
 
